@@ -59,26 +59,64 @@
     </main>
 
 
-    <div class="container">
+    <section>
+        <div class="container">
+            <div class="row">
+                <h5 class="bg-secondary text-white">Q-1: How does js works?</h5>
+                <p class="bg-light">⮞JavaScript is a client side scripting language and it runs clients machine it means
+                    clients web browser.
+                    <br>
+                    ⮞JavaScript runs on browser and it has responsible engine for that -<br>
+                    <small class="fw-3"> ⦿Chrome Browser engine: V8</small> <br>
+                    <small class="fw-3"> ⦿Edge Browser engine: Chakra</small><br>
+                    <small class="fw-3"> ⦿Safari Browser engine: JavaScript Core</small><br>
+                    <small class="fw-3"> ⦿Firefox Browser engine: Spidermonkey</small> <br>
+                    ⮞JavaScript is an interpreted language that means it executed the code line by line instead of
+                    converting the whole program.
+                </p>
+            </div>
+    </section>
+    <section class="container bg-light">
         <div class="row">
-            <h5 class="bg-secondary text-white">Q-1: How does js works?</h5>
-            <p class="bg-light">⮞JavaScript is a client side scripting language and it runs clients machine it means
-                clients web browser.
-                <br>
-                ⮞JavaScript runs on browser and it has responsible engine for that -<br>
-                <small class="fw-3"> ⦿Chrome Browser engine: V8</small> <br>
-                <small class="fw-3"> ⦿Edge Browser engine: Chakra</small><br>
-                <small class="fw-3"> ⦿Safari Browser engine: JavaScript Core</small><br>
-                <small class="fw-3"> ⦿Firefox Browser engine: Spidermonkey</small> <br>
-                ⮞JavaScript is an interpreted language that means it executed the code line by line instead of
-                converting the whole program.
-            </p>
+            <h5 class="bg-secondary text-white">Q-2: Difference between Local Storage and Session Storage</h5>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">SL</th>
+                        <th scope="col">Local Storage</th>
+                        <th scope="col">Session Storage</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Local storage is the way to store data in the clients coputer & storage data in key values
+                            pair.
+                        </td>
+                        <td>It is similar to local storage and we can store data in key/ value pairs.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Data in local storage never expire and saved untill deleted</td>
+                        <td>Session storage data is cleared when page session ends and Data is never transferred to the
+                            server.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>User has the ability to clear data to erase all local storage data</td>
+                        <td>When tab is closed the storage data is deleted</td>
+                    </tr>
+
+                </tbody>
+            </table>
         </div>
+    </section>
 
-        <footer></footer>
+    <footer></footer>
 
-        <!-- add javascript  file  -->
-        <script src="./js/app.js"></script>
+    <!-- add javascript  file  -->
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
